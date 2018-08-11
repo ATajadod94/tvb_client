@@ -2,516 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469e7d50-d4e7-4d0c-93a7-87c2c342ff92" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/gui/simple.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gui/simple_refactored.py" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/virtualbrain.iml" afterPath="$PROJECT_DIR$/.idea/virtualbrain.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/resting_state.py" afterPath="$PROJECT_DIR$/resting_state.py" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/activate" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/activate.csh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/activate.fish" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/activate_this.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/chardetect" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/conv-template" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/cygdb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/cython" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/cythonize" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/easy_install" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/easy_install-2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/f2py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/from-template" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/garden" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/garden.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/nib-dicomfs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/nib-ls" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/nib-nifti-dx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/nib-tck2trk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/nib-trk2tck" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/numba" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/parrec2nii" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/pip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/pip2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/pip2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/pycc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/pygmentize" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/python" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/python-config" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/python2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/python2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rst2html.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rst2html4.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rst2html5.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rst2latex.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rst2man.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rst2odt.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rst2odt_prepstyles.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rst2pseudoxml.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rst2s5.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rst2xetex.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rst2xml.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/rstpep2html.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/bin/wheel" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/include/python2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/pip-selfcheck.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/3d_drawing/mayavi2_spring.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/advanced/iterated_dynamical_systems.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/advanced/plot_eigenvalues.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/advanced/plot_heavy_metal_umlaut.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/advanced/plot_parallel_betweenness.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/algorithms/beam_search.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/algorithms/hartford_drug.edgelist" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/algorithms/plot_blockmodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/algorithms/plot_davis_club.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/algorithms/plot_krackhardt_centrality.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/algorithms/rcm.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/basic/plot_properties.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/basic/plot_read_write.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/chess_masters_WCC.pgn.bz2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/knuth_miles.txt.gz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/lanl_routes.edgelist" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_atlas.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_chess_masters.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_circular_tree.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_degree_histogram.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_degree_rank.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_directed.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_edge_colormap.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_ego_graph.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_four_grids.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_giant_component.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_house_with_colors.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_knuth_miles.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_labels_and_colors.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_lanl_routes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_node_colormap.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_random_geometric_graph.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_sampson.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_simple_path.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_spectral_grid.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_unix_email.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/plot_weighted_graph.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/drawing/unix_email.mbox" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/graph/atlas2.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/graph/expected_degree_sequence.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/graph/plot_degree_sequence.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/graph/plot_erdos_renyi.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/graph/plot_football.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/graph/plot_karate_club.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/graph/plot_napoleon_russian_campaign.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/graph/plot_roget.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/graph/roget_dat.txt.gz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/graph/words.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/graph/words_dat.txt.gz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/javascript/force.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/jit/plot_rgraph.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/pygraphviz/pygraphviz_attributes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/pygraphviz/pygraphviz_draw.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/pygraphviz/pygraphviz_simple.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/pygraphviz/write_dotfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/subclass/plot_antigraph.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/examples/subclass/plot_printgraph.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/doc/networkx-2.1/requirements.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/3Drendering/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/3Drendering/monkey.obj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/3Drendering/objloader.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/3Drendering/simple.glsl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/RST_Editor/editor.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/RST_Editor/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/android/compass/android.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/android/compass/compass.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/android/compass/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/android/compass/needle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/android/compass/rose.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/android/takepicture/android.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/android/takepicture/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/android/takepicture/shadow32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/android/takepicture/takepicture.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/animation/animate.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/application/app_suite.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/application/app_suite_data/testkvdir.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/application/app_with_build.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/application/app_with_config.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/application/app_with_kv.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/application/app_with_kv_in_template1.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/application/template1/test.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/application/test.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/application/testkvfile.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12908_sweet_trip_mm_clap_hi.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12909_sweet_trip_mm_clap_lo.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12910_sweet_trip_mm_clap_mid.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12911_sweet_trip_mm_hat_cl.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12913_sweet_trip_mm_kick_hi.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12914_sweet_trip_mm_kick_lo.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12915_sweet_trip_mm_kick_mid.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12916_sweet_trip_mm_kwik_mod_01.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12917_sweet_trip_mm_kwik_mod_02.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12918_sweet_trip_mm_kwik_mod_03.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12919_sweet_trip_mm_kwik_mod_04.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12920_sweet_trip_mm_kwik_mod_05.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12921_sweet_trip_mm_kwik_mod_06.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12922_sweet_trip_mm_kwik_mod_07.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12923_sweet_trip_mm_metal_clave.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12925_sweet_trip_mm_sweep_x.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12926_sweet_trip_mm_sweep_y.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/12927_sweet_trip_mm_sweep_z.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/audio.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/audio/pitch.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/camera/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/bezier.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/canvas_stress.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/circle.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/fbo_canvas.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/kiwi.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/lines.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/lines_extended.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/mesh.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/mesh_manipulation.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/mtexture1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/mtexture2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/multitexture.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/repeat_texture.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/rotation.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/rounded_rectangle.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/scale.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/stencil_canvas.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/tesselate.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/texture.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/canvas/texture_example_image.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/container/kv/1.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/container/kv/2.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/container/kv/3.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/container/kv/root.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/container/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/cover/cover_image.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/cover/cover_video.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/camera_puzzle.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/AnchorLayoutContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/BoxLayoutContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/ButtonContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/CheckBoxContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/FileChooserContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/FloatLayoutContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/GridLayoutContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/LabelContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/MediaContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/PlaygroundContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/PopupContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/ProgressBarContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/RestContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/ScatterContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/SelectorsContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/StackLayoutContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/container_kvs/TextContainer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/kivycatalog.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/kivycatalog/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/multistroke/gesturedatabase.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/multistroke/gesturedatabase.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/multistroke/helpers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/multistroke/historymanager.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/multistroke/historymanager.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/multistroke/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/multistroke/multistroke.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/multistroke/settings.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/multistroke/settings.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/pictures/android.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/pictures/images/Bubbles.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/pictures/images/Ill1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/pictures/images/Wall.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/pictures/images/faust_github.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/pictures/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/pictures/pictures.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/pictures/shadow32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/shadereditor/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/shadereditor/shadereditor.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/android.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/background.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/faust_github.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/icons/README" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/icons/bug.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/icons/chevron-left.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/icons/chevron-right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/accordions.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/bubbles.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/buttons.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/carousel.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/checkboxes.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/codeinput.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/dropdown.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/filechoosers.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/popups.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/progressbar.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/rstdocument.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/scatter.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/screenmanager.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/sliders.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/spinner.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/splitter.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/switches.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/tabbedpanel + layouts.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/textinputs.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/data/screens/togglebutton.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/showcase/showcase.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/touchtracer/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/touchtracer/android.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/touchtracer/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/touchtracer/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/touchtracer/particle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/demo/touchtracer/touchtracer.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/frameworks/twisted/echo_client_app.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/frameworks/twisted/echo_server_app.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/frameworks/twisted/twistd_app.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/gestures/gesture_board.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/gestures/my_gestures.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/guide/designwithkv/controller.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/guide/designwithkv/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/guide/firstwidget/1_skeleton.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/guide/firstwidget/2_print_touch.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/guide/firstwidget/3_draw_ellipse.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/guide/firstwidget/4_draw_line.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/guide/firstwidget/5_random_colors.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/guide/firstwidget/6_button.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/guide/quickstart/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/includes/button.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/includes/layout.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/includes/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/includes/test.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/keyboard/android.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/keyboard/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/keyboard/numeric.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kinect/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kinect/kinectviewer.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/app_button.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/app_camera.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/app_fbo.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/app_layout.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/app_logo.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/app_scatter.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/app_stencil.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/app_video.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/builder_template.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/ids/id_in_kv/id_in_kv.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/ids/id_in_kv/test.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/ids/kv_and_py/kv_and_py.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/ids/kv_and_py/test.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/kivy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/kv/kvrun.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/miscellaneous/clipboard.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/miscellaneous/joystick.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/miscellaneous/multiple_dropfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/miscellaneous/on_textedit_event.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/miscellaneous/shapecollisions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/miscellaneous/shapedwindow.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/miscellaneous/two_panes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/settings/android.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/settings/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/shader/plasma.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/shader/plasma.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/shader/rotated.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/shader/rotated.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/shader/shadertree.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/shader/shadertree.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/shader/tex3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/svg/benchmark.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/svg/cloud.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/svg/main-smaa.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/svg/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/svg/music.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/svg/ship.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/svg/sun.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/svg/tiger.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/notes/final/data/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/notes/final/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/notes/final/note.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/pong.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/steps/step1/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/steps/step1/pong.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/steps/step2/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/steps/step2/pong.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/steps/step3/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/steps/step3/pong.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/steps/step4/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/steps/step4/pong.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/steps/step5/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/tutorials/pong/steps/step5/pong.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/accordion_1.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/actionbar.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/asyncimage.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/boxlayout_poshint.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/bubble_test.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/camera.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/carousel_buttons.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/cityCC0.mpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/cityCC0.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/codeinput.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/codeinputtest.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/colorpicker.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/colorusage.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/compound_selection.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/customcollide.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/effectwidget.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/effectwidget2.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/effectwidget3_advanced.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/fbowidget.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/focus_behavior.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/image_mipmap.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/keyboardlistener.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/label_mipmap.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/label_sizing.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/label_text_size.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/label_with_markup.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lang_dynamic_classes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fixtures.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_detail_view.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Apple.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Apple.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Apple.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Apple.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Apple.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Avocado.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Avocado.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Avocado.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Avocado.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Avocado.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Banana.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Banana.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Banana.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Banana.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Banana.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Cantaloupe.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Cantaloupe.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Cantaloupe.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Cantaloupe.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Cantaloupe.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Cherry.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Cherry.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Cherry.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Cherry.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Cherry.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Grape.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Grape.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Grape.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Grape.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Grape.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Grapefruit.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Grapefruit.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Grapefruit.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Grapefruit.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Grapefruit.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Honeydew.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Honeydew.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Honeydew.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Honeydew.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Honeydew.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Kiwifruit.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Kiwifruit.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Kiwifruit.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Kiwifruit.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Kiwifruit.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Lemon.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Lemon.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Lemon.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Lemon.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Lemon.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Lime.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Lime.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Lime.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Lime.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Lime.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Nectarine.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Nectarine.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Nectarine.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Nectarine.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Nectarine.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Orange.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Orange.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Orange.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Orange.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Orange.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Peach.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Peach.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Peach.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Peach.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Peach.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Pear.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Pear.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Pear.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Pear.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Pear.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Pineapple.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Pineapple.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Pineapple.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Pineapple.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Pineapple.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Plum.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Plum.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Plum.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Plum.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Plum.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Strawberry.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Strawberry.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Strawberry.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Strawberry.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Strawberry.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Tangerine.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Tangerine.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Tangerine.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Tangerine.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Tangerine.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Watermelon.128.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Watermelon.256.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Watermelon.32.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Watermelon.512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/Watermelon.64.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/fruit_images/fruit_image_attribution.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_cascade.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_cascade_dict.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_cascade_images.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_composite.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_kv.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_master_detail.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_ops.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_reset_data.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_simple.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_simple_in_kv.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_simple_in_kv_2.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/lists/list_two_up.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/pagelayout.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/popup_with_kv.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/recycleview/basic_data.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/rstexample.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/scatter.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/scatter.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/screenmanager.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/scrollview.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/scrollview.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/android.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/data/images/bird.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/data/images/button_white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/data/images/button_white_animated.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/data/images/cube.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/data/images/info.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/data/images/info.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/data/images/simple_cv_joint_animated.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/main.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/main.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/uix/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/sequenced_images/uix/custom_button.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/settings.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/shorten_text.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/spinner.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/splitter.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/tabbed_panel_showcase.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/tabbedpanel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/textalign.kv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/textalign.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/textinput.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/unicode_textinput.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/venv27/share/kivy-examples/widgets/videoplayer.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gui/demo.py" afterPath="$PROJECT_DIR$/gui/demo.py" />
+      <change beforePath="$PROJECT_DIR$/modelling_resting_state.py" afterPath="$PROJECT_DIR$/modelling_resting_state.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -521,33 +18,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/virtualbrain$resting_state.coverage" NAME="resting_state Coverage Results" MODIFIED="1533893282205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/virtualbrain$resting_user.coverage" NAME="resting_user Coverage Results" MODIFIED="1533757887213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tvb_client$spammer.coverage" NAME="spammer Coverage Results" MODIFIED="1533909291360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tvb_client$demo.coverage" NAME="demo Coverage Results" MODIFIED="1533920520906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/virtualbrain$modelling_resting_state.coverage" NAME="modelling_resting state Coverage Results" MODIFIED="1533756488522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$plotting_saved_data.coverage" NAME="plotting_saved_data Coverage Results" MODIFIED="1533925572328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$drop_source.coverage" NAME="drop_source Coverage Results" MODIFIED="1533924875846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$clipboard.coverage" NAME="clipboard Coverage Results" MODIFIED="1533923147272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$plotting_25000_points.coverage" NAME="plotting_25000_points Coverage Results" MODIFIED="1533925527067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/virtualbrain$tempelate.coverage" NAME="tempelate Coverage Results" MODIFIED="1533809693301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$clipboard__1_.coverage" NAME="clipboard (1) Coverage Results" MODIFIED="1533925190905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$modelling_resting_state.coverage" NAME="modelling_resting_state Coverage Results" MODIFIED="1533932769274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/virtualbrain$resting_state.coverage" NAME="resting_state Coverage Results" MODIFIED="1533893282205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$bar_graph.coverage" NAME="bar_graph Coverage Results" MODIFIED="1533925512470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$main.coverage" NAME="main Coverage Results" MODIFIED="1533925185181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$spammer.coverage" NAME="spammer Coverage Results" MODIFIED="1533909291360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$demo.coverage" NAME="demo Coverage Results" MODIFIED="1533925668814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/virtualbrain$modelling_resting_state.coverage" NAME="modelling_resting state Coverage Results" MODIFIED="1533756488522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$customcomposite.coverage" NAME="customcomposite Coverage Results" MODIFIED="1533924893717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1533925318854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$simple_refactored.coverage" NAME="simple_refactored Coverage Results" MODIFIED="1533925456872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tvb_client$resting_state.coverage" NAME="resting_state Coverage Results" MODIFIED="1533919815333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$simple.coverage" NAME="simple Coverage Results" MODIFIED="1533925408297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46890756">
+    <splitter split-orientation="horizontal" split-proportion="0.35917902">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="resting_state.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resting_state.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="demo.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/gui/demo.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -560,11 +59,9 @@
           <file leaf-file-name="modelling_resting_state.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/modelling_resting_state.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1620">
-                  <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#73#82#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="150">
+                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -597,6 +94,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -621,11 +119,16 @@
         <option value="$PROJECT_DIR$/modelling_resting state.py" />
         <option value="$PROJECT_DIR$/gui/tempelate.py" />
         <option value="$PROJECT_DIR$/gui/tempelate.kv" />
-        <option value="$PROJECT_DIR$/modelling_resting_state.py" />
         <option value="$PROJECT_DIR$/resources/Node7[Public]/resting_state_hands_on/modelling_resting_state.ipynb" />
-        <option value="$PROJECT_DIR$/../../Personal_Projects/Tengaged/Spamming/spammer.py" />
         <option value="$PROJECT_DIR$/resting_state.py" />
+        <option value="$PROJECT_DIR$/gui/clipboard.py" />
+        <option value="$PROJECT_DIR$/../../Personal_Projects/Tengaged/Spamming/spammer.py" />
+        <option value="$PROJECT_DIR$/gui/drop_source.py" />
         <option value="$PROJECT_DIR$/gui/demo.py" />
+        <option value="$PROJECT_DIR$/readme.me.ipynb" />
+        <option value="$PROJECT_DIR$/Untitled.ipynb" />
+        <option value="$PROJECT_DIR$/readme.ipynb" />
+        <option value="$PROJECT_DIR$/modelling_resting_state.py" />
       </list>
     </option>
   </component>
@@ -636,9 +139,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="185" />
+    <option name="x" value="96" />
     <option name="y" value="23" />
-    <option name="width" value="1248" />
+    <option name="width" value="1184" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -667,31 +170,40 @@
             <path>
               <item name="tvb_client" type="b2602c69:ProjectViewProjectNode" />
               <item name="tvb_client" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tvb_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tvb_client" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="virtualbrain" is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
+      <console-settings module-name="virtualbrain" sdk-home="$USER_HOME$/miniconda3/envs/py27/bin/python">
+        <option name="mySdkHome" value="$USER_HOME$/miniconda3/envs/py27/bin/python" />
         <option name="myModuleName" value="virtualbrain" />
       </console-settings>
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gui" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources" />
     </key>
@@ -708,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo">
+  <component name="RunManager" selected="Python.modelling_resting_state">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -728,26 +240,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv27/bin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="virtualbrain" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv27/bin/python" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="modelling_resting state" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bar_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -760,7 +253,83 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="virtualbrain" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modelling_resting state.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/bar_graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="virtualbrain" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="modelling_resting_state" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/py27/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="virtualbrain" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modelling_resting_state.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="plotting_25000_points" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="virtualbrain" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/plotting_25000_points.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="plotting_saved_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="virtualbrain" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/plotting_saved_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -785,44 +354,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="spammer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="virtualbrain" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Personal_Projects/Tengaged/Spamming/spammer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="tempelate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="virtualbrain" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/tempelate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="virtualbrain" type="Python.Ipnb" factoryName="Jupyter Notebook">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -840,20 +371,22 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.virtualbrain" />
       <item index="1" class="java.lang.String" itemvalue="Python.resting_state" />
-      <item index="2" class="java.lang.String" itemvalue="Python.modelling_resting state" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tempelate" />
-      <item index="4" class="java.lang.String" itemvalue="Python.demo" />
-      <item index="5" class="java.lang.String" itemvalue="Python.spammer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.bar_graph" />
+      <item index="3" class="java.lang.String" itemvalue="Python.plotting_25000_points" />
+      <item index="4" class="java.lang.String" itemvalue="Python.plotting_saved_data" />
+      <item index="5" class="java.lang.String" itemvalue="Python.demo" />
+      <item index="6" class="java.lang.String" itemvalue="Python.modelling_resting_state" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.demo" />
-        <item index="1" class="java.lang.String" itemvalue="Python.spammer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tempelate" />
-        <item index="3" class="java.lang.String" itemvalue="Python.modelling_resting state" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.modelling_resting_state" />
+        <item index="1" class="java.lang.String" itemvalue="Python.demo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.plotting_saved_data" />
+        <item index="3" class="java.lang.String" itemvalue="Python.plotting_25000_points" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bar_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -877,19 +410,19 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37826684" sideWeight="0.51576394" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40302613" sideWeight="0.4890865" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28335625" sideWeight="0.5311237" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44154057" sideWeight="0.49717057" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28473178" sideWeight="0.541633" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37826684" sideWeight="0.48423606" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03799515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44154057" sideWeight="0.49393696" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40302613" sideWeight="0.5109135" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29102668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39752406" sideWeight="0.4907033" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.49717057" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -903,23 +436,23 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28445747" sideWeight="0.46538123" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44154057" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04951857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37826684" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13823767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44154057" sideWeight="0.49717057" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28445747" sideWeight="0.53461874" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4032258" sideWeight="0.5188431" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.059013743" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.49717057" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -942,8 +475,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../../Personal_Projects/Tengaged/Spamming/spammer.py</url>
-          <line>42</line>
+          <line>38</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gui/simple_refactored.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modelling_resting_state.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -953,109 +496,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resting_state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelling_resting_state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Node7[Public]/resting_state_hands_on/modelling_resting_state.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/tempelate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resting_state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelling_resting_state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Node7[Public]/resting_state_hands_on/modelling_resting_state.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resting_state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tvb/simulator/models/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="42" lean-forward="false" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelling_resting_state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Node7[Public]/resting_state_hands_on/modelling_resting_state.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resting_state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="140" lean-forward="false" selection-start-line="2" selection-start-column="140" selection-end-line="2" selection-end-column="140" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tvb/simulator/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
@@ -1067,9 +512,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,41 +629,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/copy_reg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/site-packages/tvb/datatypes/cortex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-865">
-          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/site-packages/matplotlib/_animation_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2799">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/site-packages/tvb/datatypes/connectivity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="933" column="0" lean-forward="false" selection-start-line="933" selection-start-column="0" selection-end-line="933" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/site-packages/tvb/basic/readers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/copy_reg.py" />
+    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/site-packages/tvb/datatypes/cortex.py" />
+    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/site-packages/matplotlib/_animation_data.py" />
+    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/site-packages/tvb/datatypes/connectivity.py" />
+    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/site-packages/tvb/basic/readers.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_exec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1228,14 +641,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/site-packages/numpy/lib/twodim_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="436" column="0" lean-forward="false" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv27/lib/python2.7/site-packages/numpy/lib/twodim_base.py" />
     <entry file="file://$PROJECT_DIR$/gui/tempelate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1259,36 +665,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resting_state.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../Personal_Projects/Tengaged/Spamming/spammer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/customcomposite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../assets/python_libraries/wxpython-recipes/wxpythoncookbookcode-master/recipe_23_edit_gui_interactively/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/simple_refactored.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/drop_source.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/bar_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/plotting_saved_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/clipboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.me.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Untitled.ipynb" />
+    <entry file="file://$PROJECT_DIR$/readme.md" />
+    <entry file="file://$PROJECT_DIR$/readme.ipynb.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modelling_resting_state.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding>
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resting_state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

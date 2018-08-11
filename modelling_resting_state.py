@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 from tvb.simulator import models
 from tvb.datatypes import connectivity
 
-
 from tvb.datatypes.time_series import TimeSeriesRegion
 import tvb.analyzers.correlation_coefficient as corr_coeff
 
