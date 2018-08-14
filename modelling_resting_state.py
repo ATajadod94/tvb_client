@@ -75,7 +75,7 @@ class functional():
         plt.yticks(range(0, self.num_regions), self.labels, fontsize=7)
         cb = plt.colorbar(shrink=0.25)
         cb.set_label('weights', fontsize=14)
-
+        plt.show()
 class resting_state():
     def __init__(self, structural_path, functional_path):
         self.sc = structural(structural_path)
@@ -99,15 +99,16 @@ class resting_state():
 class mymodel():
     def __init__(self):
         self.rww = models.ReducedWongWang()
+        self.W = np.linspace(0.6, 1.05, num=50)
+
 
     def local_excitatory(self):
         # Initialize the state-variable S
         self.S = np.linspace(0., 1., num=1000).reshape((1, -1, 1))
-
+        self.W = np.linspace(0.6, 1.05, num=50)
         # Remember: the phase-flow only represents the dynamic behaviour of a disconnected node => SC = 0.
         self.C = self.S * 0.
         # Parameter sweep
-        self.W = np.linspace(0.6, 1.05, num=50)
         # Fixed Io value
         self.rww.I_o = 0.33
 
@@ -126,3 +127,16 @@ class mymodel():
         plt.yticks(fontsize=20)
         plt.show()
 
+    def phase_plot(self):
+        # Visualize phase-flow for different w values
+        fig = plt.figure(figsize=(10, 10))
+        self.rww.w = self.W
+        dS = self.rww.dfun(self.S, self.C)
+        plt.plot(self.S.flat, dS.flat, 'k', alpha=0.1)
+        plt.plot([0, 0], 'r')
+        plt.title('Phase flow for different values of $w$', fontsize=20)
+        plt.xlabel('S', fontsize=20);
+        plt.xticks(fontsize=20)
+        plt.ylabel('dS', fontsize=20);
+        plt.yticks(fontsize=20)
+        plt.show()
