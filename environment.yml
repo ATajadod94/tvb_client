@@ -1,4 +1,4 @@
-depdendencies:
+dependencies:
   - python=2.7
   - backports.functools-lru-cache==1.5
   - cycler==0.10.0
