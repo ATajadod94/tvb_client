@@ -1,6 +1,5 @@
 dependencies:
   - python=2.7
-  - backports.functools-lru-cache==1.5
   - cycler==0.10.0
   - Cython==0.28.5
   - decorator==4.3.0
@@ -16,7 +15,6 @@ dependencies:
   - numpy==1.15.0
   - pathlib==1.0.1
   - pyparsing==2.2.0
-  - Pypubsub==4.0.0
   - python-dateutil==2.7.3
   - pytz==2018.5
   - scikit-learn==0.19.2
