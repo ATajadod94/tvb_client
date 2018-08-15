@@ -64,5 +64,4 @@ dependencies:
   - wxpython=4.0.3=py27hebc47a7_0
   - xz=5.2.4=h1de35cc_4
   - zlib=1.2.11=hf3cbc9b_2
-prefix: /Users/Ali/miniconda3/envs/tvb_client
 
