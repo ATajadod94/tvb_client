@@ -1,5 +1,6 @@
 name: tvb-client 
 depdendencies:
+  - python == 2.7
   - backports.functools-lru-cache
   - cycler
   - Cython
