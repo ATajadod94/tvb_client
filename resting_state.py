@@ -16,3 +16,5 @@ model.external_input()
 
 myrestingstate.setup_sim()
 myrestingstate.plot_bifuriction()
+
+
