@@ -1,4 +1,4 @@
-name : tvb-client 
+name : myenv
 depdendencies:
   - python=2.7
   - backports.functools-lru-cache==1.5
