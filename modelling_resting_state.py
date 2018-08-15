@@ -6,7 +6,7 @@ import os
 from pathlib import PurePosixPath
 import numpy as np
 import matplotlib.pyplot as plt
-from tvb.simulator import models
+from tvb.simulator import models, simulator, coupling, integrators, monitors
 from tvb.datatypes import connectivity
 
 from tvb.datatypes.time_series import TimeSeriesRegion
@@ -83,19 +83,68 @@ class resting_state():
         self.pcc = np.corrcoef(self.sc.upper_triangle().ravel(),
                                self.fc.upper_triangle().ravel())[0, 1]
 
+    def run_rww_sim_bif(self, con, G, regime, D, dt, simlen, initconds):
+        # Initialise Simulator.
+        sim = simulator.Simulator(
+            model=MyRWW(**regime),
+            connectivity=con,
+            coupling=coupling.Scaling(a=np.float(G)),
+            integrator=integrators.HeunDeterministic(dt=dt),
+            monitors=monitors.TemporalAverage(period=1.)
+        )
 
-        #@property
-        #def SC(self):
-        #    return self._sc.connectivity
-        #
-        #@property
-        #def FC(self):
-        #    return self._fc.connectivity
+        # Set initial conditions.
+        if initconds:
+            if initconds == 'low':
+                sim.initial_conditions = np.random.uniform(low=0., high=0.2, size=((1, 1, self.sc.num_regions, 1)))
+            elif initconds == 'high':
+                sim.initial_conditions = np.random.uniform(low=0.8, high=1.0, size=(1, 1, self.sc.num_regions, 1))
 
-        #@property
-        #def pcc(self):
-        #    return np.corrcoef(self.__sc.upper_triangle.ravel(),
-        #                       self.__fc.upper_triangle.ravel())[0,1]
+        sim.configure()
+        # Lunch simulation
+        H = []
+        for (t, y), in sim(simulation_length=simlen):
+            H.append(sim.model.H.copy())
+
+        H = np.array(H)
+        Hmax = np.max(H[14999, :])
+        return Hmax
+
+    def setup_sim(self):
+        regime = {'a': 270., 'b': 108., 'd': 0.154, 'gamma': 0.641 / 1000, 'w': 1., 'I_o': 0.3}
+
+        # Run G sweep with short runs
+        self.Gs = np.arange(0., 3.1, 0.5)
+
+        Hmax_low = np.zeros((len(self.Gs)))
+        Hmax_high = np.zeros((len(self.Gs)))
+        for iG, G in enumerate(self.Gs):
+            Hmax_low[iG] = self.run_rww_sim_bif(self.sc.connectivity, np.float(self.Gs[iG]), regime, 0.001, 0.1, 15000, 'low')
+            Hmax_high[iG] = self.run_rww_sim_bif(self.sc.connectivity, np.float(self.Gs[iG]), regime, 0.001, 0.1, 15000, 'high')
+
+    def plot_bifuriction(self):
+        # Visualize
+
+        plt.figure(figsize=(10, 8))
+
+        # FC
+        plt.plot(self.pcc, '-*', label='FC - FC')
+        plt.xlabel('$G_{coupl}$', fontsize=20);
+        plt.xticks(np.arange(len(self.Gs)), self.Gs)
+        plt.ylabel('PCC', fontsize=20)
+
+        # SC
+        plt.plot(self.pcc, '-*g', label='SC - FC')
+        plt.xlabel('$G_{coupl}$', fontsize=20);
+        plt.xticks(np.arange(len(self.Gs)), self.Gs)
+        plt.ylabel('PCC', fontsize=20)
+        plt.title('Correlation Diagram', fontsize=20)
+
+        plt.axvline(21, color='k', linestyle='--')
+        plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+
+        plt.show()
+
 class mymodel():
     def __init__(self):
         self.rww = models.ReducedWongWang()
@@ -140,3 +189,32 @@ class mymodel():
         plt.ylabel('dS', fontsize=20);
         plt.yticks(fontsize=20)
         plt.show()
+
+    def external_input(self):
+        Io = np.linspace(0.00, 0.42, num=50)
+        self.rww.w = 1
+        # Plot phase-flow for different Io values
+        fig = plt.figure(figsize=(10, 10))
+        for i, io in enumerate(Io):
+            self.rww.I_o = io
+            dS = self.rww.dfun(self.S, self.C)
+            plt.plot(self.S.flat, dS.flat, 'k', alpha=0.1)
+        plt.plot([0, 0], 'r')
+        plt.title('Phase flow for different values of $I_o$', fontsize=20)
+        plt.xlabel('S', fontsize=20);
+        plt.ylabel('dS', fontsize=20);
+        plt.show()
+
+
+
+class MyRWW(models.ReducedWongWang):
+    def dfun(self, state, coupling, local_coupling=0.0):
+        # save the x and H value as attribute on object
+        S, = state
+        c_0, = coupling
+        lc_0 = local_coupling * S
+        self.x = self.w * self.J_N * S + self.I_o + self.J_N * c_0 + self.J_N * lc_0
+        self.H = (self.a*self.x - self.b) / (1 - np.exp(-self.d*(self.a*self.x - self.b)))
+        # call the default implementation
+        return super(MyRWW, self).dfun(state, coupling, local_coupling=local_coupling)
+

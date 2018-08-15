@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469e7d50-d4e7-4d0c-93a7-87c2c342ff92" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/virtualbrain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/virtualbrain.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelling_resting_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelling_resting_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resting_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/resting_state.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +22,7 @@
     <SUITE FILE_PATH="coverage/tvb_client$spammer.coverage" NAME="spammer Coverage Results" MODIFIED="1533909291360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tvb_client$customcomposite.coverage" NAME="customcomposite Coverage Results" MODIFIED="1533924893717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tvb_client$drop_source.coverage" NAME="drop_source Coverage Results" MODIFIED="1533924875846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tvb_client$resting_state.coverage" NAME="resting_state Coverage Results" MODIFIED="1534264184307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tvb_client$resting_state.coverage" NAME="resting_state Coverage Results" MODIFIED="1534348838822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tvb_client$modelling_resting_state.coverage" NAME="modelling_resting_state Coverage Results" MODIFIED="1533932769274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/virtualbrain$tempelate.coverage" NAME="tempelate Coverage Results" MODIFIED="1533809693301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tvb_client$plotting_saved_data.coverage" NAME="plotting_saved_data Coverage Results" MODIFIED="1533925572328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -33,23 +36,32 @@
     <SUITE FILE_PATH="coverage/tvb_client$simple.coverage" NAME="simple Coverage Results" MODIFIED="1533925408297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46895972">
+    <splitter split-orientation="horizontal" split-proportion="0.6848485">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gui/demo.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
+                <state relative-caret-position="-47">
                   <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="resting_state.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="resting_state.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resting_state.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="489">
+                  <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
                 </state>
               </provider>
             </entry>
@@ -58,23 +70,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="modelling_resting_state.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="modelling_resting_state.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/modelling_resting_state.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1665">
-                  <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#73#82#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="modelling_resting_state.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../tvb_notebooks/notebooks/modelling_resting_state.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+                <state relative-caret-position="235">
+                  <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
                   <folding>
                     <element signature="e#73#82#0" expanded="true" />
                   </folding>
@@ -107,6 +107,9 @@
     <findStrings>
       <find>get_attribute</find>
       <find>class</find>
+      <find>nregi</find>
+      <find>Hag_con</find>
+      <find>pcc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,10 +149,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
-    <option name="y" value="33" />
-    <option name="width" value="1445" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
     <option name="height" value="944" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -188,11 +190,12 @@
     <option name="myShowDebugConsoleByDefault" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gui" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,21 +393,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="944" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="944" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.47128028" side_tool="true" visible="true" weight="0.35301062" />
-      <window_info anchor="right" x="0" y="0" width="270" height="744" id="Documentation" order="6" sideWeight="0.50364965" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50078124" side_tool="true" visible="true" weight="0.3293979" />
+      <window_info anchor="right" x="0" y="0" width="270" height="744" id="Documentation" order="6" sideWeight="0.36267605" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287483" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49296874" weight="0.44151738" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5287197" weight="0.35301062" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.8851563" weight="0.4403778" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5265625" weight="0.35301062" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.50703126" weight="0.28292182" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1296875" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.3287483" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49635038" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49921876" visible="true" weight="0.3293979" />
+      <window_info anchor="right" x="358" y="354" width="563" height="282" id="SciView" order="4" sideWeight="0.6373239" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4890625" weight="0.3540569" />
@@ -415,7 +418,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Google Cloud Storage" order="4" />
@@ -470,11 +472,6 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modelling_resting_state.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../tvb_notebooks/notebooks/modelling_resting_state.py</url>
           <line>4</line>
           <option name="timeStamp" value="25" />
@@ -491,13 +488,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/Node7[Public]/resting_state_hands_on/modelling_resting_state.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modelling_resting state.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tvb/simulator/models/__init__.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tvb/basic/config/profile_settings.py" />
@@ -606,13 +596,6 @@
     <entry file="file://$PROJECT_DIR$/readme.md" />
     <entry file="file://$PROJECT_DIR$/readme.ipynb.md" />
     <entry file="file://$PROJECT_DIR$/readme.ipynb" />
-    <entry file="file://$PROJECT_DIR$/gui/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gui/tempelate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -627,30 +610,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resting_state.py">
+    <entry file="file://$PROJECT_DIR$/gui/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelling_resting_state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
-          <folding>
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-47">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../tvb_notebooks/notebooks/modelling_resting_state.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="370">
+          <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
           <folding>
             <element signature="e#73#82#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelling_resting_state.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+          <folding>
+            <element signature="e#73#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resting_state.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
