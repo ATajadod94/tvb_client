@@ -1,4 +1,4 @@
-name: example-environment
+name: python >= 2.7
 channels:
   - conda-forge
 depdendencies:
