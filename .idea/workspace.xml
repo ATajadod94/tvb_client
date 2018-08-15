@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469e7d50-d4e7-4d0c-93a7-87c2c342ff92" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +33,7 @@
     <SUITE FILE_PATH="coverage/tvb_client$simple.coverage" NAME="simple Coverage Results" MODIFIED="1533925408297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2975815">
+    <splitter split-orientation="horizontal" split-proportion="0.46895972">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
@@ -61,8 +61,8 @@
           <file leaf-file-name="modelling_resting_state.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/modelling_resting_state.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="101">
-                  <caret line="119" column="13" lean-forward="true" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+                <state relative-caret-position="1665">
+                  <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
                   <folding>
                     <element signature="e#73#82#0" expanded="true" />
                   </folding>
@@ -73,8 +73,11 @@
           <file leaf-file-name="modelling_resting_state.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../tvb_notebooks/notebooks/modelling_resting_state.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="262">
-                  <caret line="132" column="27" lean-forward="true" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
+                <state relative-caret-position="345">
+                  <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#73#82#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -82,7 +85,7 @@
           <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/tvb/simulator/_opencl/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="122">
+                <state relative-caret-position="2205">
                   <caret line="150" column="27" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="27" />
                 </state>
               </provider>
@@ -143,7 +146,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="57" />
     <option name="y" value="33" />
     <option name="width" value="1445" />
@@ -387,54 +390,55 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="33" width="1445" height="944" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="944" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.47128028" side_tool="true" visible="true" weight="0.35301062" />
-      <window_info anchor="right" x="0" y="0" width="270" height="824" id="Documentation" sideWeight="0.5018248" side_tool="true" visible="true" weight="0.34186852" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" x="0" y="0" width="270" height="744" id="Documentation" order="6" sideWeight="0.50364965" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287483" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49296874" weight="0.44151738" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5287197" visible="true" weight="0.35301062" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5287197" weight="0.35301062" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.50703126" weight="0.28292182" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06875" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.3287483" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49817517" visible="true" weight="0.34186852" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49635038" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4890625" weight="0.3540569" />
-      <window_info anchor="right" id="Google Cloud Storage" order="3" />
+      <window_info anchor="right" id="Google Cloud Storage" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Google Cloud Storage" order="4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" weight="0.3287483" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53461874" visible="true" weight="0.28445747" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679228" />
-      <window_info anchor="right" id="SciView" order="5" visible="true" weight="0.0" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3287483" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679228" />
       <window_info id="Structure" order="1" weight="0.2497979" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53461874" visible="true" weight="0.28445747" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49717057" weight="0.44154057" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5188431" weight="0.4032258" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.46538123" side_tool="true" visible="true" weight="0.28445747" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49717057" weight="0.39889959" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3287483" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="5" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49717057" weight="0.44154057" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49717057" weight="0.39889959" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,6 +474,11 @@
           <line>118</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../tvb_notebooks/notebooks/modelling_resting_state.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -478,7 +487,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -613,7 +622,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/tvb/simulator/_opencl/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
+        <state relative-caret-position="2205">
           <caret line="150" column="27" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="27" />
         </state>
       </provider>
@@ -627,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modelling_resting_state.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="119" column="13" lean-forward="true" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        <state relative-caret-position="1665">
+          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
           <folding>
             <element signature="e#73#82#0" expanded="true" />
           </folding>
@@ -637,8 +646,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../tvb_notebooks/notebooks/modelling_resting_state.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="132" column="27" lean-forward="true" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
+        <state relative-caret-position="345">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#73#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
