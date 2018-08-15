@@ -1,4 +1,6 @@
-name : myenv
+name: example-environment
+channels:
+  - conda-forge
 depdendencies:
   - python=2.7
   - backports.functools-lru-cache==1.5
