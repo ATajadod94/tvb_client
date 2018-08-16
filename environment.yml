@@ -22,6 +22,7 @@ dependencies:
   - futures=3.2.0
   - gettext=0.19.8.1
   - intel-openmp=2018.0.3
+  - ipywidgets=7.4.0
   - jpeg=9b
   - kiwisolver=1.0.1
   - libedit=3.1.20170329
