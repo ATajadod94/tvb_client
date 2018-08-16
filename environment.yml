@@ -36,6 +36,7 @@ dependencies:
   - mkl_random=1.0.1
   - ncurses=6.1
   - nibabel==2.3.0
+  - nilearn==0.4.2
   - networkx=2.1
   - numba=0.39.0
   - numexpr=2.6.7
@@ -51,6 +52,7 @@ dependencies:
   - pytz=2018.5
   - readline=7.0
   - scipy=1.1.0
+  - seaborn==0.9.0
   - setuptools=40.0.0
   - singledispatch=3.4.0.3
   - six=1.11.0
