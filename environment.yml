@@ -24,11 +24,8 @@ dependencies:
   - intel-openmp=2018.0.3
   - jpeg=9b
   - kiwisolver=1.0.1
-  - libcxx=4.0.1
-  - libcxxabi=4.0.1
   - libedit=3.1.20170329
   - libffi=3.2.1
-  - libgfortran=3.0.1
   - libiconv=1.15
   - libpng=1.6.34
   - llvmlite=0.24.0
@@ -48,7 +45,6 @@ dependencies:
   - pyparsing=2.2.0
   - python=2.7.15
   - python-dateutil=2.7.3
-  - python.app=2
   - pytz=2018.5
   - readline=7.0
   - scipy=1.1.0
