@@ -35,12 +35,14 @@ dependencies:
   - mkl_fft=1.0.4
   - mkl_random=1.0.1
   - ncurses=6.1
+  - nibabel==2.3.0
   - networkx=2.1
   - numba=0.39.0
   - numexpr=2.6.7
   - numpy=1.15.0
   - numpy-base=1.15.0
   - openssl=1.0.2p
+  - pandas==0.23.4s 
   - pathlib=1.0.1
   - pip=10.0.1
   - pyparsing=2.2.0
@@ -56,6 +58,7 @@ dependencies:
   - subprocess32=3.5.2
   - tk=8.6.7
   - tornado=5.1
+  - tvb-library==1.5.5.1
   - typing=3.6.4
   - wheel=0.31.1
   - wxpython=4.0.3
